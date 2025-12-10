@@ -1,0 +1,56 @@
+ # Date: 2025-09-02
+# Database name: books_clean.db
+
+5) link to model data: [Upload your model files here]
+
+6.a) RMSE of the full model UB 1.4801, IB 2.0687
+
+6.b) histogram of RMSE
+RMSE     N.UBCF   N.IBCF
+0.00     12860     20201
+0.25     1913     5053
+0.50     1963     3421
+0.75     2165     3330
+1.00     2281     3207
+1.25     2296     2995
+1.50     2397     2638
+1.75     2282     2322
+2.00     2417     1856
+2.25     2229     1521
+2.50     2172     1229
+2.75     1975      989
+3.00     1906      785
+3.25     1806      589
+3.50     1653      482
+3.75     1500      378
+4.00     1298      303
+4.25     1148      221
+4.50      975      180
+4.75      829      158
+
+6.c) Top-10 recommendations
+UBCF
+user     book1    book2    book3    book4    book5    book6    book7    book8    book9    book10
+  77     Slippery Whe    Daughter of     It              El Libro de     The True and    The Yearling    Monstrous Re    The Truth Se    Attack Of Th    The Calvin &
+  85     The Crying o    Christy         Goodnight Mo    Operating In    My Sweet Aud    She's Not Th    These Happy     Chronicle of    Flowers In T    The Pearl   
+ 136     Unknown         Chiefs          The Wood Bey    I Know This     The Greatest    Unknown         Unknown         The Bridges     The Beach Ho    Walking Acro
+ 147     Magic's Pawn    Stone of Tea    Wizard's Fir    Glory in Dea    Green Eggs a    Unknown         Dragon Princ    Woman on the    The Hobbit (    Ulysses (Vin
+ 150     Dilbert: A B    Harry Potter    Cyrano De Be    Falling Up      Mort (Discwo    Blue Moon Ri    Killashandra    Scientific P    Siddhartha      Pride and Pr
+ 197     Lake Wobegon    The Stinky C    The Yellow H    RAISE THE TI    Homicidal Ps    The Authorit    Strong Poiso    The Revenge     If They Only    The Essentia
+ 208     The Name of     Felidae. Rom    Harry Potter    Moby Dick or    Family: The     Odd Thomas      Night Watch     La Sombra de    The Cat Who     The Executio
+ 214     A Woman of S    The Curious     The Blue Swo    In a Sunburn    A Wrinkle in    The Little P    The Piano Tu    The Subtle K    Bellwether      Queen of Sor
+ 218     Where the Re    The Secret L    Dragonfly in    More Than Co    I Know This     Ender's Game    Mrs. Frisby     She's Come U    Almost blue     Book of Virt
+ 220     And Then The    El Ultimo Ca    Zoya            The Neverend    The HIDDEN L    Love You For    84 Charing C    The Princess    The Magic Ci    Twenty Love 
+
+IBCF
+user     book1    book2    book3    book4    book5    book6    book7    book8    book9    book10
+  77     Dragons of A    The Curious     The Classic     The Bonesett    Love You For    One Fish Two    The I-5 Kill    Dune Messiah    The Field Gu    Jesus Freaks
+  85     The Hunt for    Secret Histo    Yukon Ho!       Atlas Shrugg    The Lottery     In Patagonia    Man's Search    God Bless Yo    CRY THE BELO    Having Our S
+ 136     It's A Magic    Chiefs          Post Captain    A Little Pri    Wiener Dog A    Man's Search    Fight Club      High Exposur    A RIVER RUNS    Grand Cahier
+ 147     Per Anhalter    84 Charing C    ANGELA'S ASH    Unknown         Against All     The Secret G    Something Un    Where the Re    Weirdos From    Yukon Ho!   
+ 150     Madame Bovar    Stellaluna      Les Miserabl    Weirdos From    The Lion, th    The Liar's C    Hope for the    Falling Up      White Dragon    Name of the 
+ 197     CRY THE BELO    Attack Of Th    Unknown         There's Trea    The Revenge     The Calvin &    The Bachelor    If They Only    Guinness Wor    Have a Nice 
+ 208     Are You Ther    It's A Magic    Stolen Lives    My Antonia (    The Indispen    Attack Of Th    Regarding th    The Calvin a    Something Un    Scientific P
+ 214     Dark Inherit    The Hunt for    A Drink Befo    The Ultimate    Weirdos From    Homicidal Ps    Betsy-Tacy (    Silent Sprin    Outlander       Jitterbug Pe
+ 218     In a Sunburn    Per Anhalter    A Suitable B    Post Captain    The Lottery     Geisha : A L    The Secret L    84 Charing C    Last Summer     Eva Luna    
+ 220     El Ultimo Ca    The Neverend    And Then The    Zoya            The Cat Who     Murder in Fo    In the Kitch    The Venetian    Twenty Love     The Lion, th
